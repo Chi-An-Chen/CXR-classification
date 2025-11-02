@@ -1,0 +1,25 @@
+=== Classification Report (Train) ===
+              precision    recall  f1-score   support
+
+      normal     1.0000    1.0000    1.0000      1157
+    bacteria     0.9993    0.9987    0.9990      1517
+       virus     0.9982    0.9991    0.9986      1101
+    COVID-19     1.0000    1.0000    1.0000       209
+
+    accuracy                         0.9992      3984
+   macro avg     0.9994    0.9994    0.9994      3984
+weighted avg     0.9992    0.9992    0.9992      3984
+
+
+=== Classification Report (Val) ===
+              precision    recall  f1-score   support
+
+      normal     0.9388    0.9735    0.9558       189
+    bacteria     0.9123    0.8438    0.8768       333
+       virus     0.7475    0.8222    0.7831       180
+    COVID-19     0.8571    0.8571    0.8571         7
+
+    accuracy                         0.8731       709
+   macro avg     0.8639    0.8742    0.8682       709
+weighted avg     0.8770    0.8731    0.8739       709
+
