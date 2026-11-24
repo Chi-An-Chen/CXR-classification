@@ -1,5 +1,7 @@
 # CXR-classification
 
+[Evaluation guide: image inputs, checkpoints, and report scope](EVALUATION_GUIDE.md)
+
 ## Classification categories:  
 ```
 1. Normal
