@@ -39,3 +39,6 @@ python main.py --backbone efficientnet_v2_m --img-size 480 --epochs 300 --bs 48 
 python main.py --test-only --backbone efficientnet_v2_s --ckpt-path best_efficientnet_v2_s.pt --img-size 384 --bs 32 --test-dir ./datasets/test_images --use-tta --tta-times 5 --save-probs --out-csv Submission.csv
 ```
 
+## Recorded evaluation
+
+The [EfficientNet V2 M classification report](results/2025-11-02/report_efficientnet_v2_m.txt) contains training and validation metrics. The [dated results folder](results/2025-11-02/) also contains accuracy, F1, and loss curves.
